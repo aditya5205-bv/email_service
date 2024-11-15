@@ -1,0 +1,573 @@
+15-11-2024 15:59:42 - ERROR - Error while creating engine No module named 'MySQLdb' - __init__ - 49
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 41, in __init__
+    self._engine = create_engine(self.__url_object)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 599, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 147, in import_dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+15-11-2024 15:59:42 - INFO - Worker email_worker started successfully - start_worker - 25
+15-11-2024 16:12:44 - ERROR - Error while creating engine No module named 'MySQLdb' - __init__ - 39
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 31, in __init__
+    self._engine = create_engine(self.__url_object)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 599, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 147, in import_dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+15-11-2024 16:12:44 - INFO - Worker email_worker started successfully - start_worker - 25
+15-11-2024 16:22:02 - ERROR - Error while creating engine No module named 'MySQLdb' - __init__ - 39
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 31, in __init__
+    self._engine = create_engine(self.__url_object)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 599, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 147, in import_dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+15-11-2024 16:22:02 - INFO - Worker email_worker started successfully - start_worker - 22
+15-11-2024 16:34:39 - ERROR - Error while creating engine No module named 'MySQLdb' - __init__ - 39
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 31, in __init__
+    self._engine = create_engine(self.__url_object)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 599, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 147, in import_dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+15-11-2024 16:34:39 - INFO - Worker email_worker started successfully - start_worker - 22
+15-11-2024 16:35:46 - ERROR - Error while creating engine No module named 'MySQLdb' - __init__ - 39
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 31, in __init__
+    self._engine = create_engine(self.__url_object)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 599, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 147, in import_dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+15-11-2024 16:35:46 - INFO - Worker email_worker started successfully - start_worker - 22
+15-11-2024 16:36:01 - INFO - Engine created - __init__ - 32
+15-11-2024 16:36:01 - INFO - Worker email_worker started successfully - start_worker - 22
+15-11-2024 16:38:52 - INFO - Engine created - __init__ - 32
+15-11-2024 16:39:05 - INFO - Session closed - _get_session - 64
+15-11-2024 16:39:05 - ERROR - Query execution error (MySQLdb.ProgrammingError) (1146, "Table 'email.db_table' doesn't exist")
+[SQL: INSERT INTO db_table (name, email, password, created_at) VALUES (%s, %s, %s, %s)]
+[parameters: ('aditya', 'kfdjkjdfjld', '1234', datetime.datetime(2024, 11, 15, 16, 39, 5, 4298, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>))]
+(Background on this error at: https://sqlalche.me/e/20/f405) - execute_query - 84
+Traceback (most recent call last):
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.ProgrammingError: (1146, "Table 'email.db_table' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 75, in execute_query
+    res = session.execute(query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/scoping.py", line 778, in execute
+    return self._proxied.execute(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/bulk_persistence.py", line 1294, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'email.db_table' doesn't exist")
+[SQL: INSERT INTO db_table (name, email, password, created_at) VALUES (%s, %s, %s, %s)]
+[parameters: ('aditya', 'kfdjkjdfjld', '1234', datetime.datetime(2024, 11, 15, 16, 39, 5, 4298, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+15-11-2024 16:39:05 - ERROR - Data insertion in database failed - update_db - 32
+15-11-2024 16:48:46 - INFO - Engine created - __init__ - 33
+15-11-2024 16:48:50 - INFO - Session closed - _get_session - 65
+15-11-2024 16:48:50 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 16:49:56 - INFO - Engine created - __init__ - 33
+15-11-2024 16:50:03 - INFO - Session closed - _get_session - 65
+15-11-2024 16:50:03 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 16:50:52 - INFO - Engine created - __init__ - 33
+15-11-2024 16:50:55 - INFO - Session closed - _get_session - 65
+15-11-2024 16:50:55 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 16:51:43 - INFO - Engine created - __init__ - 33
+15-11-2024 16:51:48 - INFO - Session closed - _get_session - 65
+15-11-2024 16:51:48 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 17:12:26 - INFO - Engine created - __init__ - 33
+15-11-2024 17:12:58 - INFO - Engine created - __init__ - 33
+15-11-2024 17:12:58 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:13:11 - INFO - Session closed - _get_session - 65
+15-11-2024 17:13:11 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 17:13:36 - INFO - Engine created - __init__ - 33
+15-11-2024 17:13:41 - INFO - Session closed - _get_session - 65
+15-11-2024 17:13:41 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 17:14:37 - INFO - Engine created - __init__ - 33
+15-11-2024 17:14:37 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:14:40 - INFO - Engine created - __init__ - 33
+15-11-2024 17:14:48 - INFO - Session closed - _get_session - 65
+15-11-2024 17:14:48 - INFO - Added data to database successfully - update_db - 23
+15-11-2024 17:21:48 - INFO - Engine created - __init__ - 33
+15-11-2024 17:21:56 - INFO - Engine created - __init__ - 33
+15-11-2024 17:22:03 - INFO - Session closed - _get_session - 65
+15-11-2024 17:22:03 - INFO - Added data to database successfully - update_db - 25
+15-11-2024 17:22:03 - ERROR - Error while updating database: send_email() takes 0 positional arguments but 1 was given - update_db - 37
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/controller/User.py", line 27, in update_db
+    enqueue_job(send_email(self._email))
+                ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: send_email() takes 0 positional arguments but 1 was given
+15-11-2024 17:22:24 - INFO - Engine created - __init__ - 33
+15-11-2024 17:22:28 - INFO - Session closed - _get_session - 65
+15-11-2024 17:22:28 - INFO - Added data to database successfully - update_db - 25
+15-11-2024 17:22:31 - ERROR - Error while updating database: 'NoneType' object has no attribute '__name__' - update_db - 37
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/helper/enqueue_job.py", line 7, in enqueue_job
+    queue.enqueue(job)
+    ~~~~~~~~~~~~~^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/rq/queue.py", line 979, in enqueue
+    ) = Queue.parse_args(f, *args, **kwargs)
+        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/rq/queue.py", line 904, in parse_args
+    if not isinstance(f, str) and f.__module__ == '__main__':
+                                  ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__module__'. Did you mean: '__reduce__'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/controller/User.py", line 27, in update_db
+    enqueue_job(send_email(self._email))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/code/email_task/helper/enqueue_job.py", line 11, in enqueue_job
+    custom_logging.error(f"Error enqueuing job {job.__name__}: {e}", exc_info=True)
+                                                ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__name__'. Did you mean: '__ne__'?
+15-11-2024 17:23:17 - INFO - Engine created - __init__ - 33
+15-11-2024 17:23:17 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:23:20 - INFO - Engine created - __init__ - 33
+15-11-2024 17:23:25 - INFO - Session closed - _get_session - 65
+15-11-2024 17:23:25 - INFO - Added data to database successfully - update_db - 25
+15-11-2024 17:23:28 - ERROR - Error enqueuing job: 'NoneType' object has no attribute '__module__' - enqueue_job - 11
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/helper/enqueue_job.py", line 7, in enqueue_job
+    queue.enqueue(job)
+    ~~~~~~~~~~~~~^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/rq/queue.py", line 979, in enqueue
+    ) = Queue.parse_args(f, *args, **kwargs)
+        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/rq/queue.py", line 904, in parse_args
+    if not isinstance(f, str) and f.__module__ == '__main__':
+                                  ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__module__'. Did you mean: '__reduce__'?
+15-11-2024 17:24:34 - INFO - Engine created - __init__ - 33
+15-11-2024 17:24:40 - INFO - Session closed - _get_session - 65
+15-11-2024 17:24:40 - INFO - Added data to database successfully - update_db - 25
+15-11-2024 17:24:40 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 17:36:53 - INFO - Engine created - __init__ - 33
+15-11-2024 17:36:53 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:37:02 - INFO - Engine created - __init__ - 33
+15-11-2024 17:37:25 - INFO - Session closed - _get_session - 65
+15-11-2024 17:37:25 - INFO - Added data to database successfully - update_db - 25
+15-11-2024 17:37:25 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 17:37:26 - ERROR - Email sending error: name 'keyring' is not defined - send_email - 26
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/helper/send_email.py", line 17, in send_email
+    yag.send(
+    ~~~~~~~~^
+        to=receiver,
+        ^^^^^^^^^^^^
+        subject="Task Email",
+        ^^^^^^^^^^^^^^^^^^^^^
+        contents=body,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 156, in send
+    self.login()
+    ~~~~~~~~~~^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 210, in login
+    self._login(self.credentials)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 228, in _login
+    password = self.handle_password(self.user, password)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 234, in handle_password
+    return handle_password(user, password)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/password.py", line 16, in handle_password
+    raise e
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/password.py", line 11, in handle_password
+    password = keyring.get_password("yagmail", user)
+               ^^^^^^^
+NameError: name 'keyring' is not defined
+15-11-2024 17:38:01 - INFO - Engine created - __init__ - 33
+15-11-2024 17:38:01 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:38:06 - INFO - Engine created - __init__ - 33
+15-11-2024 17:38:26 - INFO - Session closed - _get_session - 65
+15-11-2024 17:38:26 - ERROR - Query execution error (MySQLdb.IntegrityError) (1062, "Duplicate entry 'prashant.solanki@bytesview.com' for key 'db_table.email'")
+[SQL: INSERT INTO db_table (name, email, password, created_at, updated_at) VALUES (%s, %s, %s, %s, %s)]
+[parameters: ('prashant', 'prashant.solanki@bytesview.com', '1234', datetime.datetime(2024, 11, 15, 17, 38, 26, 694494, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>), datetime.datetime(2024, 11, 15, 17, 38, 26, 694516, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) - execute_query - 94
+Traceback (most recent call last):
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'prashant.solanki@bytesview.com' for key 'db_table.email'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/connection/MySqlConnection.py", line 85, in execute_query
+    res = session.execute(query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/scoping.py", line 778, in execute
+    return self._proxied.execute(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/orm/bulk_persistence.py", line 1294, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlalchemy.exc.IntegrityError: (MySQLdb.IntegrityError) (1062, "Duplicate entry 'prashant.solanki@bytesview.com' for key 'db_table.email'")
+[SQL: INSERT INTO db_table (name, email, password, created_at, updated_at) VALUES (%s, %s, %s, %s, %s)]
+[parameters: ('prashant', 'prashant.solanki@bytesview.com', '1234', datetime.datetime(2024, 11, 15, 17, 38, 26, 694494, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>), datetime.datetime(2024, 11, 15, 17, 38, 26, 694516, tzinfo=<DstTzInfo 'Asia/Kolkata' IST+5:30:00 STD>))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+15-11-2024 17:38:26 - ERROR - Data insertion in database failed - update_db - 34
+15-11-2024 17:41:07 - INFO - Engine created - __init__ - 33
+15-11-2024 17:41:19 - INFO - Session closed - _get_session - 65
+15-11-2024 17:41:19 - ERROR - This username or email already exists - update_db - 26
+15-11-2024 17:41:41 - INFO - Engine created - __init__ - 33
+15-11-2024 17:42:57 - INFO - Engine created - __init__ - 33
+15-11-2024 17:42:58 - INFO - Exitting ...... - <module> - 16
+15-11-2024 17:42:58 - INFO - Connection closed - disconnect - 107
+15-11-2024 17:43:51 - INFO - Engine created - __init__ - 33
+15-11-2024 17:44:02 - INFO - Session closed - _get_session - 65
+15-11-2024 17:44:03 - INFO - Session closed - _get_session - 65
+15-11-2024 17:44:03 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 17:44:03 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 17:44:03 - INFO - Connection closed - disconnect - 107
+15-11-2024 17:47:26 - INFO - Engine created - __init__ - 33
+15-11-2024 17:47:26 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:49:11 - INFO - Engine created - __init__ - 33
+15-11-2024 17:49:11 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 17:50:32 - INFO - Engine created - __init__ - 33
+15-11-2024 17:50:53 - INFO - Session closed - _get_session - 65
+15-11-2024 17:50:53 - INFO - Session closed - _get_session - 65
+15-11-2024 17:50:53 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 17:50:53 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 17:50:53 - INFO - Connection closed - disconnect - 107
+15-11-2024 17:57:34 - INFO - Engine created - __init__ - 33
+15-11-2024 17:57:46 - INFO - Session closed - _get_session - 65
+15-11-2024 17:57:46 - INFO - Session closed - _get_session - 65
+15-11-2024 17:57:46 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 17:58:10 - ERROR - Email sending error: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-7f8c1c61c2esm1167585a12.40 - gsmtp') - send_email - 22
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/helper/send_email.py", line 13, in send_email
+    yag.send(
+    ~~~~~~~~^
+        to=receiver,
+        ^^^^^^^^^^^^
+        subject="Task Email",
+        ^^^^^^^^^^^^^^^^^^^^^
+        contents=body,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 156, in send
+    self.login()
+    ~~~~~~~~~~^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 210, in login
+    self._login(self.credentials)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 229, in _login
+    self.smtp.login(self.user, password)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 750, in login
+    raise last_exception
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-7f8c1c61c2esm1167585a12.40 - gsmtp')
+15-11-2024 17:58:10 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:02:11 - INFO - Engine created - __init__ - 33
+15-11-2024 18:02:26 - INFO - Session closed - _get_session - 65
+15-11-2024 18:02:26 - ERROR - This username or email already exists in database - update_db - 26
+15-11-2024 18:02:26 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:02:39 - INFO - Engine created - __init__ - 33
+15-11-2024 18:02:44 - INFO - Added data to database successfully - update_db - 36
+15-11-2024 18:02:48 - ERROR - Email sending error: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-2ea06f4ce8bsm2683131a91.28 - gsmtp') - send_email - 22
+Traceback (most recent call last):
+  File "/home/aditya/code/email_task/helper/send_email.py", line 13, in send_email
+    yag.send(
+    ~~~~~~~~^
+        to=receiver,
+        ^^^^^^^^^^^^
+        subject="Task Email",
+        ^^^^^^^^^^^^^^^^^^^^^
+        contents=body,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 156, in send
+    self.login()
+    ~~~~~~~~~~^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 210, in login
+    self._login(self.credentials)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/site-packages/yagmail/sender.py", line 229, in _login
+    self.smtp.login(self.user, password)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 750, in login
+    raise last_exception
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/email/lib/python3.13/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-2ea06f4ce8bsm2683131a91.28 - gsmtp')
+15-11-2024 18:02:48 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:04:06 - INFO - Engine created - __init__ - 33
+15-11-2024 18:04:26 - INFO - Added data to database successfully - update_db - 36
+15-11-2024 18:04:30 - INFO - Sent email successfully - send_email - 19
+15-11-2024 18:04:30 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:15:44 - INFO - Engine created - __init__ - 33
+15-11-2024 18:15:44 - INFO - Worker email_worker started successfully - start_worker - 27
+15-11-2024 18:16:58 - INFO - Engine created - __init__ - 33
+15-11-2024 18:18:12 - INFO - Session closed - _get_session - 65
+15-11-2024 18:18:12 - INFO - Session closed - _get_session - 65
+15-11-2024 18:18:12 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 18:18:12 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 18:18:12 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:18:16 - INFO - Sent email successfully - send_email - 19
+15-11-2024 18:30:55 - INFO - Engine created - __init__ - 33
+15-11-2024 18:31:02 - INFO - Session closed - _get_session - 65
+15-11-2024 18:31:02 - INFO - Session closed - _get_session - 65
+15-11-2024 18:31:02 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 18:31:02 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 18:31:02 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:31:06 - INFO - Sent email successfully - send_email - 19
+15-11-2024 18:31:17 - INFO - Engine created - __init__ - 33
+15-11-2024 18:31:32 - INFO - Session closed - _get_session - 65
+15-11-2024 18:31:32 - ERROR - This username or email already exists in database - update_db - 26
+15-11-2024 18:31:32 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:31:43 - INFO - Engine created - __init__ - 33
+15-11-2024 18:31:56 - INFO - Session closed - _get_session - 65
+15-11-2024 18:31:56 - INFO - Session closed - _get_session - 65
+15-11-2024 18:31:56 - INFO - Added data to database successfully - update_db - 35
+15-11-2024 18:31:56 - INFO - Enqueued job successfully - enqueue_job - 8
+15-11-2024 18:31:56 - INFO - Connection closed - disconnect - 107
+15-11-2024 18:32:00 - INFO - Sent email successfully - send_email - 19
